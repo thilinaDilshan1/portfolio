@@ -43,3 +43,199 @@
     width: 90vw;
     margin: 0 auto;
 }
+
+.skill {
+    padding: 5rem 0 2.5rem 0;
+}
+
+.progress {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 30px;
+    width: 600px;
+}
+
+.photoshop-value {
+    animation: load-photoshop 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.python-value {
+    animation: load-python 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.java-value {
+    animation: load-java 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.cpp-value {
+    animation: load-cpp 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.js-value {
+    animation: load-js 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.mySQL-value {
+    animation: load-mySQL 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.html-value {
+    animation: load-html 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.css-value {
+    animation: load-css 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.figma-value {
+    animation: load-figma 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #0ef;
+    border-radius: 100px;
+    background: #0ef;
+    height: 25px;
+    width: 0;
+}
+
+.row {
+    margin: 40px;
+}
+
+.item h3 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        grid-gap: 2rem;
+    }
+}
+
+@keyframes load-photoshop {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes load-python {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes load-java {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes load-cpp {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes load-js {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 55%;
+    }
+}
+
+@keyframes load-mySQL {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes load-html {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@keyframes load-css {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes load-figma {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
