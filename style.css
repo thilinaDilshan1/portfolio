@@ -153,16 +153,6 @@ body {
     animation-delay: 2s;
 }
 
-.home-img>* {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.item {
-    width: 40px;
-    animation: spinAround 6s linear infinite;
-}
-
 
 /*KEYFRAMES ANIMATION*/
 
