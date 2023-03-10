@@ -100,10 +100,6 @@ body {
     animation-delay: 1s;
 }
 
-#myimg {
-    height: 700px;
-}
-
 .home-img img {
     max-width: 550px;
     margin-right: -20px;
@@ -220,14 +216,5 @@ body {
     }
     100% {
         transform: translateY(0);
-    }
-}
-
-@keyframes spinAround {
-    from {
-        transform: rotate(0deg) translate(120px);
-    }
-    to {
-        transform: rotate(360deg) translate(120px);
     }
 }
